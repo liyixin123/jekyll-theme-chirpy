@@ -39,6 +39,7 @@ const homeJs = () => {
 const postJs = () => {
   return concatJs([
       `${JS_SRC}/commons/*.js`,
+      `${JS_SRC}/utils/img-extra.js`,
       `${JS_SRC}/utils/timeago.js`,
       `${JS_SRC}/utils/lang-badge.js`,
       // 'smooth-scroll.js' must be called after ToC is ready
@@ -58,6 +59,7 @@ const categoriesJs = () => {
 const pageJs = () => {
   return concatJs([
       `${JS_SRC}/commons/*.js`,
+      `${JS_SRC}/utils/img-extra.js`,
       `${JS_SRC}/utils/smooth-scroll.js`
     ], 'page'
   );
