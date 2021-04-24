@@ -78,7 +78,8 @@ img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
 # avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
-avatar: http://ww1.sinaimg.cn/large/6aef9209ly1gpuxqae7upj20xc0xcn0s.jpg
+# avatar: http://ww1.sinaimg.cn/large/6aef9209ly1gpuxqae7upj20xc0xcn0s.jpg
+avatar: './image/Lift Your Skinny Fists Like Antennas to Heaven_66.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
